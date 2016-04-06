@@ -9,6 +9,6 @@ var Zone = function Zone(options) {
     this._dropObj = {};
 
     this.MARGIN = 10;
-    this.PATH_PREFIX = "url(../../img";
+    this.PATH_PREFIX = "url(http://smiranin.github.io/Solitaire/img";
     this.PATH_POSTFIX = '.png)';
 };
