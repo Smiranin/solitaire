@@ -1,0 +1,111 @@
+body{
+    background: url("../img/bg.jpg");
+    font-family: Calibri, Arial, Helvetica, sans-serif;;
+}
+
+#btn{
+    width: 110px;
+    height: 35px;
+    position: absolute;
+    background: url("../img/btn.jpg") no-repeat center;
+    top: -35px;
+    right: 0;
+}
+
+#reload{
+    position: absolute;
+    top: -35px;
+    left: 100px;
+    width: 110px;
+    height: 35px;
+    background: #009933;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#reload:hover{
+    background: #66FF66;
+}
+
+#text{
+    position: absolute;
+    top: -30px;
+    left: 10px;
+    font-size: 22px;
+    color: #801111;
+    text-shadow: #d65c5c 0 1px 0;
+}
+
+#game-field {
+    position: relative;
+    padding: 20px 0;
+    width: 880px;
+    min-height: 550px;
+    background-image: url("../img/pool_table.png");
+    margin: 0 auto;
+    border: 5px solid #3399CC;
+    border-top: 35px solid #3399CC;
+    border-radius: 10px;
+}
+
+#game-field .box{
+    position: relative;
+    float: left;
+    width: 80px;
+    min-height: 120px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+p{
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    background-image: url("../img/back.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 80px;
+}
+
+/*DECK_ZONE*/
+
+#deck-zone{
+    width: 240px;
+    float: left;
+}
+
+#deck-zone #dz-home{
+    background-image: url("../img/home-bg.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) inset;
+}
+
+#deck-zone #dz-home:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+/*FINAL_ZONE*/
+#final-zone{
+    float: left;
+    width: 480px;
+    margin-left: 120px;
+}
+
+#game-field #final-zone .box{
+    -webkit-box-shadow: 0 0 2px 2px rgba(220,220,220,0.9) inset;
+    box-shadow: 0 0 2px 2px rgba(220,220,220,0.9) inset;
+ }
+
+/*SORT_ZONE*/
+#game-field #sort-zone .box{
+    -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) inset;
+     box-sizing: border-box;
+     margin-top: 40px;
+ }
